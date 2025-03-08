@@ -11,7 +11,7 @@ export default defineConfig({
     showInstallSizeBadge: true,
     showFileComposition: true,
   },
-  excludeDependenciesOf: ['@sveltejs/kit'],
-  excludePackages: ['@sveltejs/kit', 'svelte'],
+  excludeDependenciesOf: ['eslint'],
+  excludePackages: ['@sveltejs/kit', 'svelte', 'typescript', ],
   publint: true,
 })
