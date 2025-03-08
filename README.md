@@ -10,6 +10,6 @@ You can find the recent deployed versions on [`everything.jyc.dev`](https://ever
 
 [MIT](./LICENSE) License © [jyc.dev](https://github.com/jycouet)
 
-## original idea
+## Original idea
 
 [Everything](https://github.com/antfu/everything) by [Anthony Fu](https://github.com/antfu)
