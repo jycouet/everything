@@ -25,7 +25,7 @@
     "@kitql/helpers": "^0.8.12",
     "@kitql/internals": "^0.10.3",
     "@kitql/sveltekit": "^0.0.4",
-    "firstly": "^0.0.12",
+    "firstly": "^0.0.13",
     "remult": "^2.7.30",
     "vite-plugin-kit-routes": "0.8.3",
     "vite-plugin-stripper": "^0.6.4",
