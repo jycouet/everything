@@ -2,7 +2,8 @@
 
 Every (active) pnpm Packages Jean-Yves Couët Created or Maintains
 
-I used this repo to track package versions and their dependencies with [node-module-inspector](https://github.com/antfu/node-modules-inspector).
+I used this repo to track package versions and their dependencies with
+[node-module-inspector](https://github.com/antfu/node-modules-inspector).
 
 You can find the recent deployed versions on [`everything.jyc.dev`](https://everything.jyc.dev/).
 

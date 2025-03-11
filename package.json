@@ -1,40 +1,45 @@
 {
-  "name": "@jyc.dev/everything",
-  "type": "module",
-  "version": "0.0.0",
-  "packageManager": "pnpm@10.6.1",
-  "description": "Every Packages Created by Jean-Yves Couët",
-  "author": "Jean-Yves Couët <me@jyc.dev>",
-  "license": "MIT",
-  "funding": "https://github.com/sponsors/jycouet",
-  "homepage": "https://github.com/jycouet/everything#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jycouet/everything.git"
-  },
-  "bugs": "https://github.com/jycouet/everything/issues",
-  "files": [],
-  "scripts": {
-    "dev": "node-modules-inspector",
-    "build": "node-modules-inspector build",
-    "release": "bumpp && pnpm publish"
-  },
-  "dependencies": {
-    "@kitql/eslint-config": "^0.5.8",
-    "@kitql/handles": "^0.2.4",
-    "@kitql/helpers": "^0.8.12",
-    "@kitql/internals": "^0.10.3",
-    "@kitql/sveltekit": "^0.0.4",
-    "firstly": "^0.0.13",
-    "remult": "^2.7.30",
-    "vite-plugin-kit-routes": "0.8.3",
-    "vite-plugin-stripper": "^0.6.4",
-    "vite-plugin-watch-and-run": "^1.7.4"
-  },
-  "devDependencies": {
-    "@sveltejs/kit": "^2.19.0",
-    "node-modules-inspector": "0.5.0",
-    "typescript": "5.8.2",
-    "vite": "6.2.1"
-  }
+	"name": "@jyc.dev/everything",
+	"version": "0.0.0",
+	"type": "module",
+	"description": "Every Packages Created by Jean-Yves Couët",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jycouet/everything.git"
+	},
+	"homepage": "https://github.com/jycouet/everything#readme",
+	"bugs": "https://github.com/jycouet/everything/issues",
+	"author": "Jean-Yves Couët <me@jyc.dev>",
+	"funding": "https://github.com/sponsors/jycouet",
+	"license": "MIT",
+	"packageManager": "pnpm@10.6.1",
+	"files": [],
+	"scripts": {
+		"dev": "node-modules-inspector",
+		"//// ---- BEST PRACTICES ---- ////": "",
+		"format": "kitql-lint -f",
+		"lint": "kitql-lint",
+		"//// ---- PROD ---- ////": "",
+		"build": "node-modules-inspector build",
+		"release": "bumpp && pnpm publish"
+	},
+	"dependencies": {
+		"@kitql/eslint-config": "catalog:kitql",
+		"@kitql/handles": "catalog:kitql",
+		"@kitql/helpers": "catalog:kitql",
+		"@kitql/internals": "catalog:kitql",
+		"@kitql/sveltekit": "catalog:kitql",
+		"firstly": "catalog:remult",
+		"remult": "catalog:remult",
+		"vite-plugin-kit-routes": "catalog:vite",
+		"vite-plugin-stripper": "catalog:vite",
+		"vite-plugin-watch-and-run": "catalog:vite"
+	},
+	"devDependencies": {
+		"@sveltejs/kit": "catalog:devDeps",
+		"@sveltejs/vite-plugin-svelte": "catalog:devDeps",
+		"node-modules-inspector": "catalog:devDeps",
+		"typescript": "catalog:devDeps",
+		"vite": "catalog:devDeps"
+	}
 }
