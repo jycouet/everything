@@ -18,7 +18,7 @@ catalogs:
     firstly: 0.0.14
   
   devDeps: 
-    "@sveltejs/kit": 2.19.0
+    "@sveltejs/kit": 2.20.0
     "@sveltejs/vite-plugin-svelte": 5.0.3
     node-modules-inspector: 0.5.0
     typescript: 5.8.2
