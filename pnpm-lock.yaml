@@ -23,8 +23,8 @@ catalogs:
       version: 6.2.1
   kitql:
     '@kitql/eslint-config':
-      specifier: 0.5.8
-      version: 0.5.8
+      specifier: 0.6.0
+      version: 0.6.0
     '@kitql/handles':
       specifier: 0.2.4
       version: 0.2.4
@@ -61,7 +61,7 @@ importers:
     dependencies:
       '@kitql/eslint-config':
         specifier: catalog:kitql
-        version: 0.5.8(@ianvs/prettier-plugin-sort-imports@4.4.0(prettier@3.5.3))(@typescript-eslint/eslint-plugin@8.26.0(@typescript-eslint/parser@8.26.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(jiti@2.4.2)(svelte@5.22.6)(typescript@5.8.2)
+        version: 0.6.0(@ianvs/prettier-plugin-sort-imports@4.4.0(prettier@3.5.3))(@typescript-eslint/eslint-plugin@8.26.0(@typescript-eslint/parser@8.26.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(jiti@2.4.2)(svelte@5.22.6)(typescript@5.8.2)
       '@kitql/handles':
         specifier: catalog:kitql
         version: 0.2.4(@sveltejs/kit@2.20.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.2.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)
@@ -424,8 +424,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@kitql/eslint-config@0.5.8':
-    resolution: {integrity: sha512-68sRXzatvVoXLZm2HaK95yBHeXV21Dd0y6v+Jp8CPjjzxmNmr4skDW6aYxYu/HCn3uKOxw04drQkkJKjW9rjyQ==}
+  '@kitql/eslint-config@0.6.0':
+    resolution: {integrity: sha512-GRmip2GuGcco8EvDmUfO7BbGd07QFRzNnL+3l1aj/sHm7Ukv/cs07MOHlJhj6hteunibzXjAcXpvM0XIpgXUPA==}
     hasBin: true
 
   '@kitql/handles@0.2.4':
@@ -1027,13 +1027,13 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  eslint-plugin-pnpm-catalogs@0.1.0:
-    resolution: {integrity: sha512-4FzIfTfr06U3ULStgSMSmpDsfhtxsbSAxKLvXLo+/i/z48v4+4WD0Yr5hTb6E37X/ch8isKiTl4bnnvSENTYFA==}
+  eslint-plugin-pnpm@0.3.1:
+    resolution: {integrity: sha512-vi5iHoELIAlBbX4AW8ZGzU3tUnfxuXhC/NKo3qRcI5o9igbz6zJUqSlQ03bPeMqWIGTPatZnbWsNR1RnlNERNQ==}
     peerDependencies:
       eslint: ^9.0.0
 
-  eslint-plugin-svelte@3.0.3:
-    resolution: {integrity: sha512-R7HSKkLN33P6WwYhVbO+5xPT0YIpO+YAZfWxow7I1IvjVgZOxuI7zReqxFL3B7F028u16Megx+hn8SEXDNcDvw==}
+  eslint-plugin-svelte@3.3.0:
+    resolution: {integrity: sha512-pgGY5mT/ftZjG6xO4HltcQvne3rWUjStVDlvEZCR5cQKmZADbQp9kDmUc+fhIo1oO2HlXP25A+g4pkaoiBCxqg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.1 || ^9.0.0
@@ -1626,8 +1626,8 @@ packages:
   pkg-types@2.1.0:
     resolution: {integrity: sha512-wmJwA+8ihJixSoHKxZJRBQG1oY8Yr9pGLzRmSsNms0iNWyHHAlZCa7mmKiFR10YPZuz/2k169JiS/inOjBCZ2A==}
 
-  pnpm-catalogs-utils@0.1.0:
-    resolution: {integrity: sha512-avysWJc452htYTnae14ENYTI3fSzZ1U1xNrdSJ2kFgwDaDvdEKIM5Iu+WljP2cdr/HAKKQ1hnuvu3sQJ3Eq/zQ==}
+  pnpm-workspace-yaml@0.3.1:
+    resolution: {integrity: sha512-3nW5RLmREmZ8Pm8MbPsO2RM+99RRjYd25ynj3NV0cFsN7CcEl4sDFzgoFmSyduFwxFQ2Qbu3y2UdCh6HlyUOeA==}
 
   postcss-import@15.1.0:
     resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==}
@@ -2261,6 +2261,10 @@ packages:
       utf-8-validate:
         optional: true
 
+  yaml-eslint-parser@1.3.0:
+    resolution: {integrity: sha512-E/+VitOorXSLiAqtTd7Yqax0/pAS3xaYMP+AUUJGOK1OZG3rhcj9fcJOM5HJ2VrP1FrStVCWr1muTfQCdj4tAA==}
+    engines: {node: ^14.17.0 || >=16.0.0}
+
   yaml@1.10.2:
     resolution: {integrity: sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==}
     engines: {node: '>= 6'}
@@ -2543,7 +2547,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@kitql/eslint-config@0.5.8(@ianvs/prettier-plugin-sort-imports@4.4.0(prettier@3.5.3))(@typescript-eslint/eslint-plugin@8.26.0(@typescript-eslint/parser@8.26.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(jiti@2.4.2)(svelte@5.22.6)(typescript@5.8.2)':
+  '@kitql/eslint-config@0.6.0(@ianvs/prettier-plugin-sort-imports@4.4.0(prettier@3.5.3))(@typescript-eslint/eslint-plugin@8.26.0(@typescript-eslint/parser@8.26.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(jiti@2.4.2)(svelte@5.22.6)(typescript@5.8.2)':
     dependencies:
       '@eslint/compat': 1.2.7(eslint@9.22.0(jiti@2.4.2))
       '@eslint/js': 9.22.0
@@ -2553,8 +2557,8 @@ snapshots:
       '@typescript-eslint/parser': 8.26.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)
       commander: 13.1.0
       eslint: 9.22.0(jiti@2.4.2)
-      eslint-plugin-pnpm-catalogs: 0.1.0(eslint@9.22.0(jiti@2.4.2))
-      eslint-plugin-svelte: 3.0.3(eslint@9.22.0(jiti@2.4.2))(svelte@5.22.6)
+      eslint-plugin-pnpm: 0.3.1(eslint@9.22.0(jiti@2.4.2))
+      eslint-plugin-svelte: 3.3.0(eslint@9.22.0(jiti@2.4.2))(svelte@5.22.6)
       eslint-plugin-unused-imports: 4.1.4(@typescript-eslint/eslint-plugin@8.26.0(@typescript-eslint/parser@8.26.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))
       globals: 16.0.0
       jsonc-eslint-parser: 2.4.0
@@ -2563,6 +2567,7 @@ snapshots:
       prettier-plugin-svelte: 3.3.2(prettier@3.5.3)(svelte@5.22.6)
       prettier-plugin-tailwindcss: 0.6.6(@ianvs/prettier-plugin-sort-imports@4.4.0(prettier@3.5.3))(prettier-plugin-svelte@3.3.2(prettier@3.5.3)(svelte@5.22.6))(prettier@3.5.3)
       typescript-eslint: 8.26.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)
+      yaml-eslint-parser: 1.3.0
     transitivePeerDependencies:
       - '@ianvs/prettier-plugin-sort-imports'
       - '@prettier/plugin-pug'
@@ -3190,14 +3195,17 @@ snapshots:
       eslint: 9.22.0(jiti@2.4.2)
       semver: 7.7.1
 
-  eslint-plugin-pnpm-catalogs@0.1.0(eslint@9.22.0(jiti@2.4.2)):
+  eslint-plugin-pnpm@0.3.1(eslint@9.22.0(jiti@2.4.2)):
     dependencies:
       eslint: 9.22.0(jiti@2.4.2)
       find-up-simple: 1.0.1
       jsonc-eslint-parser: 2.4.0
-      pnpm-catalogs-utils: 0.1.0
+      pathe: 2.0.3
+      pnpm-workspace-yaml: 0.3.1
+      tinyglobby: 0.2.12
+      yaml-eslint-parser: 1.3.0
 
-  eslint-plugin-svelte@3.0.3(eslint@9.22.0(jiti@2.4.2))(svelte@5.22.6):
+  eslint-plugin-svelte@3.3.0(eslint@9.22.0(jiti@2.4.2))(svelte@5.22.6):
     dependencies:
       '@eslint-community/eslint-utils': 4.4.1(eslint@9.22.0(jiti@2.4.2))
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -3855,7 +3863,7 @@ snapshots:
       exsolve: 1.0.2
       pathe: 2.0.3
 
-  pnpm-catalogs-utils@0.1.0:
+  pnpm-workspace-yaml@0.3.1:
     dependencies:
       yaml: 2.7.0
 
@@ -4349,6 +4357,11 @@ snapshots:
       strip-ansi: 7.1.0
 
   ws@8.18.1: {}
+
+  yaml-eslint-parser@1.3.0:
+    dependencies:
+      eslint-visitor-keys: 3.4.3
+      yaml: 2.7.0
 
   yaml@1.10.2: {}
 
