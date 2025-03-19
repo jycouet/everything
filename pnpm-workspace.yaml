@@ -10,7 +10,7 @@ catalogs:
 
   vite: 
     vite-plugin-kit-routes: 0.8.3
-    vite-plugin-stripper: 0.8.0
+    vite-plugin-stripper: 0.9.0
     vite-plugin-watch-and-run: 1.7.4
   
   remult: 
