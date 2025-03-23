@@ -20,6 +20,6 @@ catalogs:
   devDeps: 
     "@sveltejs/kit": 2.20.0
     "@sveltejs/vite-plugin-svelte": 5.0.3
-    node-modules-inspector: 0.5.0
+    node-modules-inspector: 0.6.0
     typescript: 5.8.2
     vite: 6.2.1
