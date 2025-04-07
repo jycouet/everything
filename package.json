@@ -12,7 +12,7 @@
 	"author": "Jean-Yves Couët <me@jyc.dev>",
 	"funding": "https://github.com/sponsors/jycouet",
 	"license": "MIT",
-	"packageManager": "pnpm@10.7.0",
+	"packageManager": "pnpm@10.8.0",
 	"files": [],
 	"scripts": {
 		"dev": "node-modules-inspector",
