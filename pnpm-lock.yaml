@@ -42,8 +42,8 @@ catalogs:
       specifier: 0.0.15
       version: 0.0.15
     remult:
-      specifier: 3.0.1
-      version: 3.0.1
+      specifier: 3.0.2
+      version: 3.0.2
   vite:
     vite-plugin-kit-routes:
       specifier: 0.8.3
@@ -76,10 +76,10 @@ importers:
         version: 0.0.4(@sveltejs/kit@2.21.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)
       firstly:
         specifier: catalog:remult
-        version: 0.0.15(@sveltejs/kit@2.21.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(@types/node@22.13.10)(jiti@2.4.2)(postcss@8.5.3)(remult@3.0.1)(svelte@5.22.6)(yaml@2.7.0)
+        version: 0.0.15(@sveltejs/kit@2.21.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(@types/node@22.13.10)(jiti@2.4.2)(postcss@8.5.3)(remult@3.0.2)(svelte@5.22.6)(yaml@2.7.0)
       remult:
         specifier: catalog:remult
-        version: 3.0.1
+        version: 3.0.2
       vite-plugin-kit-routes:
         specifier: catalog:vite
         version: 0.8.3(@sveltejs/kit@2.21.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))
@@ -1821,8 +1821,8 @@ packages:
   reflect-metadata@0.1.14:
     resolution: {integrity: sha512-ZhYeb6nRaXCfhnndflDK8qI6ZQ/YcWZCISRAWICW9XYqMUwjZM9Z0DveWX/ABN01oxSHwVxKQmxeYZSsm0jh5A==}
 
-  remult@3.0.1:
-    resolution: {integrity: sha512-9Lal9EIjqQkhv+rx56dB3EZJrjF0svQl+w9zEv5dAkYNs/fmAxz6AZf5IFf68/n1DpMyQ8ld7mt05+3ZRNTnCw==}
+  remult@3.0.2:
+    resolution: {integrity: sha512-DpXRCpjidpwrQ9bGuVOg1EmxKvM9heD9xnCJ7Z7EIuuZVyBg9wQAfK5RsGmHo/+oX7psH2vls9gf4BW3KwUU9g==}
 
   resolve-from@4.0.0:
     resolution: {integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==}
@@ -3354,7 +3354,7 @@ snapshots:
       locate-path: 6.0.0
       path-exists: 4.0.0
 
-  firstly@0.0.15(@sveltejs/kit@2.21.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(@types/node@22.13.10)(jiti@2.4.2)(postcss@8.5.3)(remult@3.0.1)(svelte@5.22.6)(yaml@2.7.0):
+  firstly@0.0.15(@sveltejs/kit@2.21.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(@types/node@22.13.10)(jiti@2.4.2)(postcss@8.5.3)(remult@3.0.2)(svelte@5.22.6)(yaml@2.7.0):
     dependencies:
       '@clack/prompts': 0.10.0
       '@kitql/internals': 0.10.4
@@ -3372,7 +3372,7 @@ snapshots:
       daisyui: 4.12.14(postcss@8.5.3)
       esm-env: 1.2.2
       nodemailer: 6.10.0
-      remult: 3.0.1
+      remult: 3.0.2
       svelte: 5.22.6
       svelty-email: 0.0.11(@sveltejs/kit@2.21.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))
       tailwind-merge: 2.6.0
@@ -3986,7 +3986,7 @@ snapshots:
 
   reflect-metadata@0.1.14: {}
 
-  remult@3.0.1:
+  remult@3.0.2:
     dependencies:
       '@paralleldrive/cuid2': 2.2.2
       reflect-metadata: 0.1.14
