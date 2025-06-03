@@ -1,6 +1,15 @@
 {
-	$schema: 'https://docs.renovatebot.com/renovate-schema.json',
+  	$schema: 'https://docs.renovatebot.com/renovate-schema.json',
 	extends: ['github>jycouet/jycouet//shared-config/renovate/default.json5'],
 
 	automerge: true,
+
+	"packageRules": [
+    		// Let's update each patch for these libs
+    		{
+      			"matchUpdateTypes": ["patch"],
+      			"enabled": false,
+      			"excludePackageNames": ["node-modules-inspector"]
+    		},
+	],
 }
