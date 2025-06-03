@@ -26,8 +26,8 @@ catalogs:
       specifier: 0.6.0
       version: 0.6.0
     '@kitql/handles':
-      specifier: 0.2.4
-      version: 0.2.4
+      specifier: 0.3.0
+      version: 0.3.0
     '@kitql/helpers':
       specifier: 0.8.12
       version: 0.8.12
@@ -64,7 +64,7 @@ importers:
         version: 0.6.0(@ianvs/prettier-plugin-sort-imports@4.4.0(prettier@3.5.3))(@typescript-eslint/eslint-plugin@8.26.0(@typescript-eslint/parser@8.26.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(jiti@2.4.2)(svelte@5.22.6)(typescript@5.8.2)
       '@kitql/handles':
         specifier: catalog:kitql
-        version: 0.2.4(@sveltejs/kit@2.21.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)
+        version: 0.3.0(@sveltejs/kit@2.21.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)
       '@kitql/helpers':
         specifier: catalog:kitql
         version: 0.8.12
@@ -428,8 +428,8 @@ packages:
     resolution: {integrity: sha512-GRmip2GuGcco8EvDmUfO7BbGd07QFRzNnL+3l1aj/sHm7Ukv/cs07MOHlJhj6hteunibzXjAcXpvM0XIpgXUPA==}
     hasBin: true
 
-  '@kitql/handles@0.2.4':
-    resolution: {integrity: sha512-GaUBTIZ9aqD+D+zLectpSfKZtAleNrigIdRw1SbFF43JXPSgNVy+GvDAUQIlnBJDa5XtXclqUlHFbETiiT9C7w==}
+  '@kitql/handles@0.3.0':
+    resolution: {integrity: sha512-BBotYxvGt791zHJLawzcLgZHB0SJAAFXyGZHS+ukq4aWJCn9/zfAedAhQBLZy/myWUi87daFdnggC4ZyoVO95g==}
     engines: {node: ^16.14 || >=18}
     peerDependencies:
       '@sveltejs/kit': ^2.4.0
@@ -437,6 +437,10 @@ packages:
 
   '@kitql/helpers@0.8.12':
     resolution: {integrity: sha512-aAihk32Ym8XFtwP1mwpuvG5J0Ov2LTnIVItJZI31bTnmlQ5tYSaYgvnD44lNiAjHQw0/tUstqIYRPK8C6wlLoA==}
+    engines: {node: ^16.14 || >=18}
+
+  '@kitql/helpers@0.8.13':
+    resolution: {integrity: sha512-8Om4jxF3XLTrpCkrZ8q6kHco4o6u/zKisA7XjLdiUDeSX7VSprlq6fnG2xayrbrc1He+pHQkgj2cHqqUvEHTGg==}
     engines: {node: ^16.14 || >=18}
 
   '@kitql/internals@0.10.3':
@@ -2586,15 +2590,19 @@ snapshots:
       - ts-node
       - typescript
 
-  '@kitql/handles@0.2.4(@sveltejs/kit@2.21.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)':
+  '@kitql/handles@0.3.0(@sveltejs/kit@2.21.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)':
     dependencies:
-      '@kitql/helpers': 0.8.12
+      '@kitql/helpers': 0.8.13
       '@sveltejs/kit': 2.21.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.3.1(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0))
       esm-env: 1.2.2
       svelte: 5.22.6
       vary: 1.1.2
 
   '@kitql/helpers@0.8.12':
+    dependencies:
+      esm-env: 1.2.2
+
+  '@kitql/helpers@0.8.13':
     dependencies:
       esm-env: 1.2.2
 
