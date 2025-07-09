@@ -15,7 +15,7 @@ catalogs:
   
   remult: 
     remult: 3.0.4
-    firstly: 0.0.15
+    firstly: 0.1.0
   
   devDeps: 
     "@sveltejs/kit": 2.22.0
