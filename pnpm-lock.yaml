@@ -39,8 +39,8 @@ catalogs:
       version: 0.0.4
   remult:
     firstly:
-      specifier: 0.1.0
-      version: 0.1.0
+      specifier: 0.2.0
+      version: 0.2.0
     remult:
       specifier: 3.1.0
       version: 3.1.0
@@ -76,7 +76,7 @@ importers:
         version: 0.0.4(@sveltejs/kit@2.26.0(@sveltejs/vite-plugin-svelte@6.1.0(svelte@5.22.6)(vite@7.0.0(@types/node@22.13.10)(jiti@2.4.2)(terser@5.43.1)(yaml@2.7.0)))(svelte@5.22.6)(vite@7.0.0(@types/node@22.13.10)(jiti@2.4.2)(terser@5.43.1)(yaml@2.7.0)))(svelte@5.22.6)
       firstly:
         specifier: catalog:remult
-        version: 0.1.0(@sveltejs/kit@2.26.0(@sveltejs/vite-plugin-svelte@6.1.0(svelte@5.22.6)(vite@7.0.0(@types/node@22.13.10)(jiti@2.4.2)(terser@5.43.1)(yaml@2.7.0)))(svelte@5.22.6)(vite@7.0.0(@types/node@22.13.10)(jiti@2.4.2)(terser@5.43.1)(yaml@2.7.0)))(postcss@8.5.6)(remult@3.1.0)(svelte@5.22.6)
+        version: 0.2.0(@sveltejs/kit@2.26.0(@sveltejs/vite-plugin-svelte@6.1.0(svelte@5.22.6)(vite@7.0.0(@types/node@22.13.10)(jiti@2.4.2)(terser@5.43.1)(yaml@2.7.0)))(svelte@5.22.6)(vite@7.0.0(@types/node@22.13.10)(jiti@2.4.2)(terser@5.43.1)(yaml@2.7.0)))(postcss@8.5.6)(remult@3.1.0)(svelte@5.22.6)
       remult:
         specifier: catalog:remult
         version: 3.1.0
@@ -493,8 +493,8 @@ packages:
   '@mdi/js@7.4.47':
     resolution: {integrity: sha512-KPnNOtm5i2pMabqZxpUz7iQf+mfrYZyKCZ8QNz85czgEt7cuHcGorWfdzUMWYA0SD+a6Hn4FmJ+YhzzzjkTZrQ==}
 
-  '@melt-ui/svelte@0.86.3':
-    resolution: {integrity: sha512-ZsWmHGd6P636mws1CgatlX7JtLkWoUBPXeNzPzvHYgZdagp8io8MPFotDIfRyKwTEQFUqF9fhBks6CWr0Nupuw==}
+  '@melt-ui/svelte@0.86.6':
+    resolution: {integrity: sha512-Jer+M7DgIwT5IHfTayb4Iw/fkkxWNmC/mqn/nMh9JrbPbkxmyabfLQnhJ+JDn5HK77f84j34lubO3iqFtYAfMg==}
     peerDependencies:
       svelte: ^3.0.0 || ^4.0.0 || ^5.0.0-next.118
 
@@ -1319,13 +1319,13 @@ packages:
     resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==}
     engines: {node: '>=10'}
 
-  firstly@0.1.0:
-    resolution: {integrity: sha512-ke+zOygrVXohTfH8hMfPb2w6eWmHOMQ2Q9+QdIYC5SHpxlRzc1yZL3L6FQ+8q4ETx5peDTq3HAh5pbLp+srxvw==}
+  firstly@0.2.0:
+    resolution: {integrity: sha512-kC8l2nrDLGd0F+2f0uT0XJSUJ2y3hyCraz9MVBoBUIALIYs6DY0SaAXYI18xejUhaIhbNhnPMTMr/ypIDEJ5hg==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
       '@sveltejs/kit': '>=1.0.0 <3.0.0'
-      remult: 3.0.6
+      remult: '>=3.1.1'
       svelte: '>=5'
     peerDependenciesMeta:
       '@sveltejs/kit':
@@ -3042,7 +3042,7 @@ snapshots:
 
   '@mdi/js@7.4.47': {}
 
-  '@melt-ui/svelte@0.86.3(svelte@5.22.6)':
+  '@melt-ui/svelte@0.86.6(svelte@5.22.6)':
     dependencies:
       '@floating-ui/core': 1.6.9
       '@floating-ui/dom': 1.6.13
@@ -3913,14 +3913,14 @@ snapshots:
       locate-path: 6.0.0
       path-exists: 4.0.0
 
-  firstly@0.1.0(@sveltejs/kit@2.26.0(@sveltejs/vite-plugin-svelte@6.1.0(svelte@5.22.6)(vite@7.0.0(@types/node@22.13.10)(jiti@2.4.2)(terser@5.43.1)(yaml@2.7.0)))(svelte@5.22.6)(vite@7.0.0(@types/node@22.13.10)(jiti@2.4.2)(terser@5.43.1)(yaml@2.7.0)))(postcss@8.5.6)(remult@3.1.0)(svelte@5.22.6):
+  firstly@0.2.0(@sveltejs/kit@2.26.0(@sveltejs/vite-plugin-svelte@6.1.0(svelte@5.22.6)(vite@7.0.0(@types/node@22.13.10)(jiti@2.4.2)(terser@5.43.1)(yaml@2.7.0)))(svelte@5.22.6)(vite@7.0.0(@types/node@22.13.10)(jiti@2.4.2)(terser@5.43.1)(yaml@2.7.0)))(postcss@8.5.6)(remult@3.1.0)(svelte@5.22.6):
     dependencies:
       '@clack/prompts': 0.11.0
       '@kitql/internals': 0.10.5
       '@layerstack/svelte-actions': 1.0.0
       '@layerstack/utils': 1.0.0
       '@mdi/js': 7.4.47
-      '@melt-ui/svelte': 0.86.3(svelte@5.22.6)
+      '@melt-ui/svelte': 0.86.6(svelte@5.22.6)
       '@oslojs/crypto': 1.0.1
       '@oslojs/encoding': 1.1.0
       '@oslojs/otp': 1.1.0
