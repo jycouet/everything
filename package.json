@@ -31,6 +31,7 @@
 		"@kitql/sveltekit": "catalog:kitql",
 		"firstly": "catalog:remult",
 		"remult": "catalog:remult",
+		"sv": "catalog:svelte",
 		"vite-plugin-kit-routes": "catalog:vite",
 		"vite-plugin-stripper": "catalog:vite",
 		"vite-plugin-watch-and-run": "catalog:vite"
