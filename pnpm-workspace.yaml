@@ -16,6 +16,9 @@ catalogs:
   remult: 
     remult: 3.2.1
     firstly: 0.2.0
+
+  svelte:
+    sv: 0.9.4
   
   devDeps: 
     "@sveltejs/kit": 2.36.0
