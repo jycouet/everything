@@ -46,8 +46,8 @@ catalogs:
       version: 3.3.0
   svelte:
     sv:
-      specifier: 0.10.2
-      version: 0.10.2
+      specifier: 0.11.0
+      version: 0.11.0
   vite:
     vite-plugin-kit-routes:
       specifier: 1.0.0
@@ -86,7 +86,7 @@ importers:
         version: 3.3.0
       sv:
         specifier: catalog:svelte
-        version: 0.10.2
+        version: 0.11.0
       vite-plugin-kit-routes:
         specifier: catalog:vite
         version: 1.0.0(@sveltejs/kit@2.49.0(@sveltejs/vite-plugin-svelte@6.2.0(svelte@5.22.6)(vite@7.3.0(@types/node@22.13.10)(jiti@2.6.1)(terser@5.43.1)(yaml@2.7.0)))(svelte@5.22.6)(vite@7.3.0(@types/node@22.13.10)(jiti@2.6.1)(terser@5.43.1)(yaml@2.7.0)))
@@ -2349,8 +2349,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  sv@0.10.2:
-    resolution: {integrity: sha512-eAR0uVXt/hqCsmjW9x63+RuQhcwIth18AjLDe5K/7BozVKtbM7emX4Nd3ylFhDY3k3Fs2OLJ6M9jRn8NrztknA==}
+  sv@0.11.0:
+    resolution: {integrity: sha512-yhtuIXX2VGn3Tmuc0FR0yMr5wjOUAY9QH8fv+EiORX2SEud5jqKFrEbmFthpFiC6J69m7zI5+HRptT3yjMOTFQ==}
     hasBin: true
 
   svelte-eslint-parser@1.2.0:
@@ -5148,7 +5148,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  sv@0.10.2: {}
+  sv@0.11.0: {}
 
   svelte-eslint-parser@1.2.0(svelte@5.22.6):
     dependencies:
