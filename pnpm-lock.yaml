@@ -46,8 +46,8 @@ catalogs:
       version: 3.3.0
   svelte:
     sv:
-      specifier: 0.11.0
-      version: 0.11.0
+      specifier: 0.12.1
+      version: 0.12.1
   vite:
     vite-plugin-kit-routes:
       specifier: 1.0.0
@@ -86,7 +86,7 @@ importers:
         version: 3.3.0
       sv:
         specifier: catalog:svelte
-        version: 0.11.0
+        version: 0.12.1
       vite-plugin-kit-routes:
         specifier: catalog:vite
         version: 1.0.0(@sveltejs/kit@2.50.0(@sveltejs/vite-plugin-svelte@6.2.0(svelte@5.22.6)(vite@7.3.0(@types/node@22.13.10)(jiti@2.6.1)(terser@5.43.1)(yaml@2.7.0)))(svelte@5.22.6)(typescript@5.9.2)(vite@7.3.0(@types/node@22.13.10)(jiti@2.6.1)(terser@5.43.1)(yaml@2.7.0)))
@@ -1401,6 +1401,7 @@ packages:
 
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   globals@11.12.0:
@@ -2355,8 +2356,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  sv@0.11.0:
-    resolution: {integrity: sha512-yhtuIXX2VGn3Tmuc0FR0yMr5wjOUAY9QH8fv+EiORX2SEud5jqKFrEbmFthpFiC6J69m7zI5+HRptT3yjMOTFQ==}
+  sv@0.12.1:
+    resolution: {integrity: sha512-eye6s3BzbiHs1D9dmZk8C/VACrGagKHr/0Ku/JyBaNLxmkTFNGkdg5EqEwbLJkU4bYBmnT3LCCQln08T+1mNBw==}
     hasBin: true
 
   svelte-eslint-parser@1.2.0:
@@ -5165,7 +5166,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  sv@0.11.0: {}
+  sv@0.12.1: {}
 
   svelte-eslint-parser@1.2.0(svelte@5.22.6):
     dependencies:
