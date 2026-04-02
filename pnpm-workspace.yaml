@@ -15,7 +15,7 @@ catalogs:
   
   remult: 
     remult: 3.3.0
-    firstly: 0.2.0
+    firstly: 0.3.0
 
   svelte:
     sv: 0.13.0
