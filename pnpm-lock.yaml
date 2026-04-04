@@ -46,8 +46,8 @@ catalogs:
       version: 3.3.0
   svelte:
     sv:
-      specifier: 0.13.0
-      version: 0.13.0
+      specifier: 0.14.0
+      version: 0.14.0
   vite:
     vite-plugin-kit-routes:
       specifier: 1.0.0
@@ -86,7 +86,7 @@ importers:
         version: 3.3.0
       sv:
         specifier: catalog:svelte
-        version: 0.13.0
+        version: 0.14.0
       vite-plugin-kit-routes:
         specifier: catalog:vite
         version: 1.0.0(@sveltejs/kit@2.55.0(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@6.0.2)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))
@@ -884,8 +884,8 @@ packages:
       typescript:
         optional: true
 
-  '@sveltejs/sv-utils@0.0.3':
-    resolution: {integrity: sha512-rILMrx0zQMR0OlFXR/peTu+9z6x/5iOsEiWJelkI670WPWdAunikKLQrIE7zN8U/8DjN5WBvIWu0OAyEuZ4ohA==}
+  '@sveltejs/sv-utils@0.1.0':
+    resolution: {integrity: sha512-/rMSqcMtET+BPgsnpfiEhbsOIpy5dQpqDeU9bIEhzMGe6xGAfxPd4OcCoUsO7sQeav0HkxZTQwIKchhwbFhpvg==}
 
   '@sveltejs/vite-plugin-svelte@7.0.0':
     resolution: {integrity: sha512-ILXmxC7HAsnkK2eslgPetrqqW1BKSL7LktsFgqzNj83MaivMGZzluWq32m25j2mDOjmSKX7GGWahePhuEs7P/g==}
@@ -1772,8 +1772,8 @@ packages:
   structured-clone-es@1.0.0:
     resolution: {integrity: sha512-FL8EeKFFyNQv5cMnXI31CIMCsFarSVI2bF0U0ImeNE3g/F1IvJQyqzOXxPBRXiwQfyBTlbNe88jh1jFW0O/jiQ==}
 
-  sv@0.13.0:
-    resolution: {integrity: sha512-dTjex1KUoN1Uys6xTSYFJQu86lO0ApKkke6k0xoKfjymI5OL7RrXeguG7zSWb/uv6z20wYGrCsxwYU6iHJ3r6A==}
+  sv@0.14.0:
+    resolution: {integrity: sha512-+EgIh+fqeeAKllTQCutuO8Pv9Rvezv0KyPMSCk6CNZzX/aSYRY2xkuXZRhrNJpqlRpzeAmh371sd0sy7ybLe7Q==}
     hasBin: true
 
   svelecte@5.3.0:
@@ -3104,7 +3104,7 @@ snapshots:
     optionalDependencies:
       typescript: 6.0.2
 
-  '@sveltejs/sv-utils@0.0.3': {}
+  '@sveltejs/sv-utils@0.1.0': {}
 
   '@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3))':
     dependencies:
@@ -3945,9 +3945,9 @@ snapshots:
 
   structured-clone-es@1.0.0: {}
 
-  sv@0.13.0:
+  sv@0.14.0:
     dependencies:
-      '@sveltejs/sv-utils': 0.0.3
+      '@sveltejs/sv-utils': 0.1.0
 
   svelecte@5.3.0(svelte@5.22.6):
     dependencies:
