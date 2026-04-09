@@ -1,12 +1,8 @@
 import { kitql } from '@kitql/eslint-config'
 
-/** @type { import("eslint").Linter.Config[] } */
-export default [
-	...kitql({
-		pnpmCatalogs: {
-			enable: false,
-		},
-	}),
+/** @type { import('eslint').Linter.Config[]} */
+const config = [
+	...kitql(),
 	{
 		name: 'app:rules',
 		rules: {
@@ -14,3 +10,5 @@ export default [
 		},
 	},
 ]
+
+export default config

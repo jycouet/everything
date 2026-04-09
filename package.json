@@ -40,7 +40,10 @@
 	"devDependencies": {
 		"@sveltejs/kit": "catalog:devDeps",
 		"@sveltejs/vite-plugin-svelte": "catalog:devDeps",
+		"eslint": "^10.2.0",
 		"node-modules-inspector": "catalog:devDeps",
+		"oxlint": "^1.59.0",
+		"prettier": "^3.8.1",
 		"typescript": "catalog:devDeps",
 		"vite": "catalog:devDeps"
 	}
