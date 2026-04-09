@@ -9,7 +9,7 @@
     		{
       			"matchUpdateTypes": ["patch"],
       			"enabled": false,
-      			"excludePackageNames": ["node-modules-inspector"]
+      			matchPackageNames: ["!node-modules-inspector"],
     		},
 	],
 }
