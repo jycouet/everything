@@ -13,6 +13,9 @@
 	"funding": "https://github.com/sponsors/jycouet",
 	"license": "MIT",
 	"packageManager": "pnpm@10.11.0",
+	"engines": {
+		"node": ">=20"
+	},
 	"files": [],
 	"scripts": {
 		"dev": "node-modules-inspector",
