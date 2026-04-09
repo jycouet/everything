@@ -29,6 +29,7 @@
 		"@kitql/helpers": "catalog:kitql",
 		"@kitql/internals": "catalog:kitql",
 		"@kitql/sveltekit": "catalog:kitql",
+		"@sveltejs/sv-utils": "catalog:svelte",
 		"firstly": "catalog:remult",
 		"remult": "catalog:remult",
 		"sv": "catalog:svelte",

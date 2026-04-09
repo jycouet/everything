@@ -19,6 +19,7 @@ catalogs:
 
   svelte:
     sv: 0.15.0
+    "@sveltejs/sv-utils": 0.2.0
   
   devDeps: 
     "@sveltejs/kit": 2.57.0
