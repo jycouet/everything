@@ -22,7 +22,7 @@ catalogs:
   '@sveltejs/sv-utils': 0.2.0
 
  devDeps:
-  '@sveltejs/kit': 2.57.0
+  '@sveltejs/kit': 2.58.0
   '@sveltejs/vite-plugin-svelte': 7.0.0
   node-modules-inspector: 1.4.2
   typescript: 6.0.2
