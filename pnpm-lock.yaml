@@ -39,8 +39,8 @@ catalogs:
       version: 0.0.4
   remult:
     firstly:
-      specifier: 0.5.1
-      version: 0.5.1
+      specifier: 0.6.0
+      version: 0.6.0
     remult:
       specifier: 3.3.0
       version: 3.3.0
@@ -86,7 +86,7 @@ importers:
         version: 0.2.0
       firstly:
         specifier: catalog:remult
-        version: 0.5.1(@sveltejs/kit@2.62.0(@sveltejs/vite-plugin-svelte@7.1.1(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@6.0.2)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(remult@3.3.0)(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3))
+        version: 0.6.0(@sveltejs/kit@2.62.0(@sveltejs/vite-plugin-svelte@7.1.1(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@6.0.2)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(remult@3.3.0)(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3))
       remult:
         specifier: catalog:remult
         version: 3.3.0
@@ -1402,8 +1402,8 @@ packages:
     resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==}
     engines: {node: '>=10'}
 
-  firstly@0.5.1:
-    resolution: {integrity: sha512-Oghr5pYZPPM5bMDavGCx5E3nQPOJDOHYUSrNefWJPqLNr+OdezclMF8YqHy+irDqiVt3CaHlTZCdnnqM/YiR7A==}
+  firstly@0.6.0:
+    resolution: {integrity: sha512-PX+ZD7QuajcBT1ooCfOkqM53EtcL4JDW+eCX4+PRE6IyRwVEMDT3otLJ5Loq30CmcA9+H88vV/j7/EsrbehBIg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sveltejs/kit': '>=1.0.0 <3.0.0'
@@ -1983,6 +1983,11 @@ packages:
     resolution: {integrity: sha512-9by4Ij99JUr/MCFBUkDKLWK3G9HVXmabKz9U5MlIAIuvuzkiOicRYs8XJLxX+xahD+mLiiCYDqF9dKAgtzKP1A==}
     engines: {node: '>=18'}
 
+  runed@0.28.0:
+    resolution: {integrity: sha512-k2xx7RuO9hWcdd9f+8JoBeqWtYrm5CALfgpkg2YDB80ds/QE4w0qqu34A7fqiAwiBBSBQOid7TLxwxVC27ymWQ==}
+    peerDependencies:
+      svelte: ^5.7.0
+
   sade@1.8.1:
     resolution: {integrity: sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A==}
     engines: {node: '>=6'}
@@ -2043,6 +2048,11 @@ packages:
     peerDependenciesMeta:
       svelte:
         optional: true
+
+  svelte-sonner@1.1.1:
+    resolution: {integrity: sha512-5cd3p7wa4cq0NsqslMwdlPb7x1JglEZ/GKrLePWNr5bCxR1nagAVrY01FRFrXfUGs41miLt3C327+8XJo5BzZw==}
+    peerDependencies:
+      svelte: ^5.0.0
 
   svelte@5.22.6:
     resolution: {integrity: sha512-dxHyh3USJyayafSt5I5QD7KuoCM5ZGdIOtLQiKHEro7tymdh0jMcNkiSBVHW+LOA2jEqZEHhyfwN6/pCjx0Fug==}
@@ -3429,7 +3439,7 @@ snapshots:
       locate-path: 6.0.0
       path-exists: 4.0.0
 
-  firstly@0.5.1(@sveltejs/kit@2.62.0(@sveltejs/vite-plugin-svelte@7.1.1(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@6.0.2)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(remult@3.3.0)(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)):
+  firstly@0.6.0(@sveltejs/kit@2.62.0(@sveltejs/vite-plugin-svelte@7.1.1(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@6.0.2)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(remult@3.3.0)(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)):
     dependencies:
       '@layerstack/utils': 1.0.0
       '@mdi/js': 7.4.47
@@ -3438,6 +3448,7 @@ snapshots:
       cron: 4.4.0
       esm-env: 1.2.2
       nodemailer: 8.0.5
+      svelte-sonner: 1.1.1(svelte@5.22.6)
       tailwind-merge: 3.5.0
       tailwindcss: 4.2.2
       vite-plugin-kit-routes: 1.0.6(@sveltejs/kit@2.62.0(@sveltejs/vite-plugin-svelte@7.1.1(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@6.0.2)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3))
@@ -4035,6 +4046,11 @@ snapshots:
 
   run-applescript@7.0.0: {}
 
+  runed@0.28.0(svelte@5.22.6):
+    dependencies:
+      esm-env: 1.2.2
+      svelte: 5.22.6
+
   sade@1.8.1:
     dependencies:
       mri: 1.2.0
@@ -4083,6 +4099,11 @@ snapshots:
       postcss-selector-parser: 7.1.0
       semver: 7.8.0
     optionalDependencies:
+      svelte: 5.22.6
+
+  svelte-sonner@1.1.1(svelte@5.22.6):
+    dependencies:
+      runed: 0.28.0(svelte@5.22.6)
       svelte: 5.22.6
 
   svelte@5.22.6:
