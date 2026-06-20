@@ -39,8 +39,8 @@ catalogs:
       version: 0.0.4
   remult:
     firstly:
-      specifier: 0.6.0
-      version: 0.6.0
+      specifier: 0.7.0
+      version: 0.7.0
     remult:
       specifier: 3.3.0
       version: 3.3.0
@@ -86,7 +86,7 @@ importers:
         version: 0.3.0
       firstly:
         specifier: catalog:remult
-        version: 0.6.0(@sveltejs/kit@2.66.0(@sveltejs/vite-plugin-svelte@7.1.1(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@6.0.2)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(remult@3.3.0)(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3))
+        version: 0.7.0(@sveltejs/kit@2.66.0(@sveltejs/vite-plugin-svelte@7.1.1(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@6.0.2)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(remult@3.3.0)(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3))
       remult:
         specifier: catalog:remult
         version: 3.3.0
@@ -1402,8 +1402,8 @@ packages:
     resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==}
     engines: {node: '>=10'}
 
-  firstly@0.6.0:
-    resolution: {integrity: sha512-PX+ZD7QuajcBT1ooCfOkqM53EtcL4JDW+eCX4+PRE6IyRwVEMDT3otLJ5Loq30CmcA9+H88vV/j7/EsrbehBIg==}
+  firstly@0.7.0:
+    resolution: {integrity: sha512-r+4fK37sBHi+7+U2xyP8y7CmA9Wbh0KMoY5xxOkfDlSPk5pC3G9qC7Fb+foOMcF2ZsHIiKjLRoiOtnVz1VldnA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sveltejs/kit': '>=1.0.0 <3.0.0'
@@ -2058,11 +2058,11 @@ packages:
     resolution: {integrity: sha512-dxHyh3USJyayafSt5I5QD7KuoCM5ZGdIOtLQiKHEro7tymdh0jMcNkiSBVHW+LOA2jEqZEHhyfwN6/pCjx0Fug==}
     engines: {node: '>=18'}
 
-  tailwind-merge@3.5.0:
-    resolution: {integrity: sha512-I8K9wewnVDkL1NTGoqWmVEIlUcB9gFriAEkXkfCjX5ib8ezGxtR3xD7iZIxrfArjEsH7F1CHD4RFUtxefdqV/A==}
+  tailwind-merge@3.6.0:
+    resolution: {integrity: sha512-uxL7qAVQriqRQPAyK3pj66VqskWqoZ37PW94jwOTwNfq/z9oyu1V+eqrZqtR2+fCiXdYOZe/Modt8GtvqNzu+w==}
 
-  tailwindcss@4.2.2:
-    resolution: {integrity: sha512-KWBIxs1Xb6NoLdMVqhbhgwZf2PGBpPEiwOqgI4pFIYbNTfBXiKYyWoTsXgBQ9WFg/OlhnvHaY+AEpW7wSmFo2Q==}
+  tailwindcss@4.3.0:
+    resolution: {integrity: sha512-y6nxMGB1nMW9R6k96e5gdIFzcfL/gTJRNaqGes1YvkLnPVXzWgbqFF2yLC0T8G774n24cx3Pe8XrKoniCOAH+Q==}
 
   tiny-invariant@1.3.3:
     resolution: {integrity: sha512-+FbBPE1o9QAYvviau/qC5SE3caw21q3xkvWKBtja5vgqOWIHHJ3ioaq1VPfn/Szqctz2bU/oYeKd9/z5BL+PVg==}
@@ -3439,8 +3439,9 @@ snapshots:
       locate-path: 6.0.0
       path-exists: 4.0.0
 
-  firstly@0.6.0(@sveltejs/kit@2.66.0(@sveltejs/vite-plugin-svelte@7.1.1(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@6.0.2)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(remult@3.3.0)(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)):
+  firstly@0.7.0(@sveltejs/kit@2.66.0(@sveltejs/vite-plugin-svelte@7.1.1(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@6.0.2)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(remult@3.3.0)(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)):
     dependencies:
+      '@kitql/helpers': 0.8.15
       '@layerstack/utils': 1.0.0
       '@mdi/js': 7.4.47
       '@types/nodemailer': 8.0.0
@@ -3449,8 +3450,8 @@ snapshots:
       esm-env: 1.2.2
       nodemailer: 8.0.5
       svelte-sonner: 1.1.1(svelte@5.22.6)
-      tailwind-merge: 3.5.0
-      tailwindcss: 4.2.2
+      tailwind-merge: 3.6.0
+      tailwindcss: 4.3.0
       vite-plugin-kit-routes: 1.0.6(@sveltejs/kit@2.66.0(@sveltejs/vite-plugin-svelte@7.1.1(svelte@5.22.6)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@6.0.2)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3))
       vite-plugin-stripper: 0.10.4(@typescript-eslint/types@8.59.3)(vite@8.0.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3))
     optionalDependencies:
@@ -4123,9 +4124,9 @@ snapshots:
       magic-string: 0.30.21
       zimmerframe: 1.1.2
 
-  tailwind-merge@3.5.0: {}
+  tailwind-merge@3.6.0: {}
 
-  tailwindcss@4.2.2: {}
+  tailwindcss@4.3.0: {}
 
   tiny-invariant@1.3.3: {}
 
