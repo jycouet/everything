@@ -49,8 +49,8 @@ catalogs:
       specifier: 0.3.0
       version: 0.3.0
     sv:
-      specifier: 0.16.1
-      version: 0.16.1
+      specifier: 0.17.0
+      version: 0.17.0
   vite:
     vite-plugin-kit-routes:
       specifier: 1.0.0
@@ -92,7 +92,7 @@ importers:
         version: 3.3.0
       sv:
         specifier: catalog:svelte
-        version: 0.16.1
+        version: 0.17.0
       vite-plugin-kit-routes:
         specifier: catalog:vite
         version: 1.0.0(@sveltejs/kit@2.70.0(@sveltejs/vite-plugin-svelte@7.2.0(svelte@5.22.6)(vite@8.2.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.2.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))
@@ -887,6 +887,9 @@ packages:
 
   '@sveltejs/sv-utils@0.3.0':
     resolution: {integrity: sha512-TBQDbHEUy3sFGxhj9LcjyPVF8yM0kIgZG4hCbSYuf67XBoYbg7QpRVkyvEnAR+YqofXzOtOX+qPB9mRPj0eg7A==}
+
+  '@sveltejs/sv-utils@0.3.3':
+    resolution: {integrity: sha512-K6Voe+/4Ry6o3QTFdG4cNkdgW9kvbkJuRyyIyUbSVkuJUVz4jCdvYNuDCBNYC1mpxBFi7nuulpOeuqRjldZXRA==}
 
   '@sveltejs/vite-plugin-svelte@7.2.0':
     resolution: {integrity: sha512-1SpkuMSRLfugrVX+IrKfE1RUegzo8AQzKQ6qQPfVzbcWi5IhuTPaKb5ZrLpucleFznkc4/RTeSPoRnGWFxX+EQ==}
@@ -2378,8 +2381,8 @@ packages:
   structured-clone-es@2.0.0:
     resolution: {integrity: sha512-5UuAHmBLXYPCl22xWJrFuGmIhBKQzxISPVz6E7nmTmTcAOpUzlbjKJsRrCE4vADmMQ0dzeCnlWn9XufnAGf76Q==}
 
-  sv@0.16.1:
-    resolution: {integrity: sha512-p4QWUzPffV7Fc46IMMJhTiTyoF65Bsi9Q6dEwFApYpW5x4X1yaUcjLin5sWmekXoxC1NYK+Ja8GjwCdv7tfryQ==}
+  sv@0.17.0:
+    resolution: {integrity: sha512-bYEZjqq2XSAf6+uE59sXKgGQLS/W8vXrSvuDPeFN7Kit+iDA/LtL8oN/KkldU3pHufSS/R73xaLS4eDrZae62w==}
     hasBin: true
 
   svelte-eslint-parser@1.6.0:
@@ -3328,6 +3331,8 @@ snapshots:
       typescript: 7.0.2
 
   '@sveltejs/sv-utils@0.3.0': {}
+
+  '@sveltejs/sv-utils@0.3.3': {}
 
   '@sveltejs/vite-plugin-svelte@7.2.0(svelte@5.22.6)(vite@8.2.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3))':
     dependencies:
@@ -4805,9 +4810,9 @@ snapshots:
 
   structured-clone-es@2.0.0: {}
 
-  sv@0.16.1:
+  sv@0.17.0:
     dependencies:
-      '@sveltejs/sv-utils': 0.3.0
+      '@sveltejs/sv-utils': 0.3.3
 
   svelte-eslint-parser@1.6.0(svelte@5.22.6):
     dependencies:
