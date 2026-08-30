@@ -39,8 +39,8 @@ catalogs:
       version: 0.0.4
   remult:
     firstly:
-      specifier: 0.8.0
-      version: 0.8.0
+      specifier: 0.9.0
+      version: 0.9.0
     remult:
       specifier: 3.3.0
       version: 3.3.0
@@ -86,7 +86,7 @@ importers:
         version: 0.3.0
       firstly:
         specifier: catalog:remult
-        version: 0.8.0(@sveltejs/kit@2.70.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.2.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.2.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(remult@3.3.0)(rolldown@1.2.1)(svelte@5.22.6)(vite@8.2.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3))
+        version: 0.9.0(@sveltejs/kit@2.70.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.2.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.2.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(remult@3.3.0)(rolldown@1.2.1)(svelte@5.22.6)(vite@8.2.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3))
       remult:
         specifier: catalog:remult
         version: 3.3.0
@@ -381,12 +381,6 @@ packages:
 
   '@napi-rs/wasm-runtime@1.1.1':
     resolution: {integrity: sha512-p64ah1M1ld8xjWv3qbvFwHiFVWrq1yFvV4f7w+mzaqiR4IlSgkqhcRdHwsGgomwzBH51sRY4NEowLxnaBjcW/A==}
-
-  '@napi-rs/wasm-runtime@1.1.5':
-    resolution: {integrity: sha512-AWPoBRJ9tsnVhor4sjO7rkni+7p+2IAEFj6cx06UgP10jkQHqay/36uRV/bFkgrh18D9vb4cr8Q0Pthskgzy+Q==}
-    peerDependencies:
-      '@emnapi/core': ^1.7.1
-      '@emnapi/runtime': ^1.7.1
 
   '@napi-rs/wasm-runtime@1.2.1':
     resolution: {integrity: sha512-KjZdi8Q1wh89gsVmghvbrMgWl6ZWmRmHV6wjB7/g4Zf0dyO+hH3neZUtuDNPO00qq5YE5RITVWvrIZKRaAmzGQ==}
@@ -1545,8 +1539,8 @@ packages:
     resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==}
     engines: {node: '>=10'}
 
-  firstly@0.8.0:
-    resolution: {integrity: sha512-KpKPtjU3TfhiUfA4xqi7Ng89V5bGAVjPQt74TTRgfqtD3GONlK+jSNDb9GeVvmhUopgqYdgnJgS8enX3Hs7Tkw==}
+  firstly@0.9.0:
+    resolution: {integrity: sha512-KtfM+cfjzRtS9QP+CmN/OLFXkzSW18AXAORmSwMmfdNvs3BbUAR07FszzQd67fzW4EshMTNCF4w+NsV6ZDSXVA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sveltejs/kit': '>=1.0.0 <3.0.0'
@@ -3021,7 +3015,7 @@ snapshots:
       '@tybys/wasm-util': 0.10.1
     optional: true
 
-  '@napi-rs/wasm-runtime@1.1.5(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)':
+  '@napi-rs/wasm-runtime@1.2.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)':
     dependencies:
       '@emnapi/core': 1.10.0
       '@emnapi/runtime': 1.10.0
@@ -3140,7 +3134,7 @@ snapshots:
     dependencies:
       '@emnapi/core': 1.10.0
       '@emnapi/runtime': 1.10.0
-      '@napi-rs/wasm-runtime': 1.1.5(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
+      '@napi-rs/wasm-runtime': 1.2.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
     optional: true
 
   '@oxc-parser/binding-win32-arm64-msvc@0.121.0':
@@ -3959,7 +3953,7 @@ snapshots:
       locate-path: 6.0.0
       path-exists: 4.0.0
 
-  firstly@0.8.0(@sveltejs/kit@2.70.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.2.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.2.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(remult@3.3.0)(rolldown@1.2.1)(svelte@5.22.6)(vite@8.2.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)):
+  firstly@0.9.0(@sveltejs/kit@2.70.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.2.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.2.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(remult@3.3.0)(rolldown@1.2.1)(svelte@5.22.6)(vite@8.2.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)):
     dependencies:
       '@kitql/helpers': 0.8.15
       '@layerstack/utils': 1.0.0
