@@ -39,8 +39,8 @@ catalogs:
       version: 0.0.4
   remult:
     firstly:
-      specifier: 0.9.0
-      version: 0.9.0
+      specifier: 0.10.0
+      version: 0.10.0
     remult:
       specifier: 3.3.0
       version: 3.3.0
@@ -86,7 +86,7 @@ importers:
         version: 0.3.0
       firstly:
         specifier: catalog:remult
-        version: 0.9.0(@sveltejs/kit@2.70.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(remult@3.3.0)(rolldown@1.2.8)(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3))
+        version: 0.10.0(@sveltejs/kit@2.70.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(remult@3.3.0)(rolldown@1.2.8)(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3))
       remult:
         specifier: catalog:remult
         version: 3.3.0
@@ -1413,8 +1413,8 @@ packages:
     resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==}
     engines: {node: '>=10'}
 
-  firstly@0.9.0:
-    resolution: {integrity: sha512-KtfM+cfjzRtS9QP+CmN/OLFXkzSW18AXAORmSwMmfdNvs3BbUAR07FszzQd67fzW4EshMTNCF4w+NsV6ZDSXVA==}
+  firstly@0.10.0:
+    resolution: {integrity: sha512-4GA45DPeE+BetDiFVwKvKpf/JVUY2pjrRI/LqzCKGhrkuT9clRxz091IKrNWBREq3X8/g7P+TZxm/f9gXMQbCA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sveltejs/kit': '>=1.0.0 <3.0.0'
@@ -3416,7 +3416,7 @@ snapshots:
       locate-path: 6.0.0
       path-exists: 4.0.0
 
-  firstly@0.9.0(@sveltejs/kit@2.70.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(remult@3.3.0)(rolldown@1.2.8)(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)):
+  firstly@0.10.0(@sveltejs/kit@2.70.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(remult@3.3.0)(rolldown@1.2.8)(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)):
     dependencies:
       '@kitql/helpers': 0.8.15
       '@layerstack/utils': 1.0.0
