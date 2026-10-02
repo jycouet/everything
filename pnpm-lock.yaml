@@ -49,8 +49,8 @@ catalogs:
       specifier: 1.0.0
       version: 1.0.0
     sv:
-      specifier: 0.17.0
-      version: 0.17.0
+      specifier: 1.0.1
+      version: 1.0.1
   vite:
     vite-plugin-kit-routes:
       specifier: 1.0.0
@@ -92,7 +92,7 @@ importers:
         version: 3.3.0
       sv:
         specifier: catalog:svelte
-        version: 0.17.0
+        version: 1.0.1
       vite-plugin-kit-routes:
         specifier: catalog:vite
         version: 1.0.0(@sveltejs/kit@3.0.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))
@@ -881,9 +881,6 @@ packages:
         optional: true
       typescript:
         optional: true
-
-  '@sveltejs/sv-utils@0.3.3':
-    resolution: {integrity: sha512-K6Voe+/4Ry6o3QTFdG4cNkdgW9kvbkJuRyyIyUbSVkuJUVz4jCdvYNuDCBNYC1mpxBFi7nuulpOeuqRjldZXRA==}
 
   '@sveltejs/sv-utils@1.0.0':
     resolution: {integrity: sha512-nK6hcTMF9Iffu3zHS6+1bE7yDROFPvraKGvzjUy7aBQkzoccKse6WSWhpMvPLMP2tOC9+el4+HI+RhfA1OPFpQ==}
@@ -2015,8 +2012,8 @@ packages:
     engines: {node: '>=20.16.0'}
     hasBin: true
 
-  sv@0.17.0:
-    resolution: {integrity: sha512-bYEZjqq2XSAf6+uE59sXKgGQLS/W8vXrSvuDPeFN7Kit+iDA/LtL8oN/KkldU3pHufSS/R73xaLS4eDrZae62w==}
+  sv@1.0.1:
+    resolution: {integrity: sha512-w0Us7C+4JsTLVW42NjMnyFBIeEEjwSEv2URDThUtv53jHYe1k7eaqXrP23JoeGcCxfEL86TVCWfuI8pqJjnbRQ==}
     hasBin: true
 
   svelte-eslint-parser@1.6.0:
@@ -2918,8 +2915,6 @@ snapshots:
       vite: 8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)
     optionalDependencies:
       typescript: 7.0.2
-
-  '@sveltejs/sv-utils@0.3.3': {}
 
   '@sveltejs/sv-utils@1.0.0': {}
 
@@ -4005,9 +4000,9 @@ snapshots:
 
   srvx@1.0.5: {}
 
-  sv@0.17.0:
+  sv@1.0.1:
     dependencies:
-      '@sveltejs/sv-utils': 0.3.3
+      '@sveltejs/sv-utils': 1.0.0
 
   svelte-eslint-parser@1.6.0(svelte@5.22.6):
     dependencies:
