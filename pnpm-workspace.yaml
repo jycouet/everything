@@ -9,7 +9,7 @@ catalogs:
   '@kitql/sveltekit': 0.1.0
 
  vite:
-  vite-plugin-kit-routes: 1.0.0
+  vite-plugin-kit-routes: 1.1.0
   vite-plugin-stripper: 0.10.0
   vite-plugin-watch-and-run: 1.8.0
 
