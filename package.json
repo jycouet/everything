@@ -23,7 +23,7 @@
 		"format": "kitql-lint -f",
 		"lint": "kitql-lint",
 		"//// ---- PROD ---- ////": "",
-		"build": "node-modules-inspector build",
+		"build": "node-modules-inspector build --outDir .node-modules-inspector",
 		"release": "bumpp && pnpm publish"
 	},
 	"dependencies": {
