@@ -35,8 +35,8 @@ catalogs:
       specifier: 0.11.0
       version: 0.11.0
     '@kitql/sveltekit':
-      specifier: 0.0.4
-      version: 0.0.4
+      specifier: 0.1.0
+      version: 0.1.0
   remult:
     firstly:
       specifier: 0.10.0
@@ -80,7 +80,7 @@ importers:
         version: 0.11.0
       '@kitql/sveltekit':
         specifier: catalog:kitql
-        version: 0.0.4(@sveltejs/kit@3.0.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)
+        version: 0.1.0(@sveltejs/kit@3.0.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)
       '@sveltejs/sv-utils':
         specifier: catalog:svelte
         version: 1.0.0
@@ -355,11 +355,11 @@ packages:
     resolution: {integrity: sha512-85kR/djdC5EWA6brGga1aU1vT3qGaduJWasJ9O5ZPXG1+5yl0WAhXDxPUOy8h1e1x+a8wihSTAaTrpQxtc1pkw==}
     engines: {node: ^16.14 || >=18}
 
-  '@kitql/sveltekit@0.0.4':
-    resolution: {integrity: sha512-21zkmKzXRTtPoMpi759b65ptb78IHwG7dzEGYTRfP69+38HqfLSUfg0S/K++oJsnybpL8MsRFGGhPYVO0Sz9aQ==}
+  '@kitql/sveltekit@0.1.0':
+    resolution: {integrity: sha512-9TrhbAOegtiWiQ0GcuB99edqL0hkjDX7pcTphZmJzQqDzbYEnp+SM3oxJEZwwGVTQx/hUSSLvYpQktM8N4zdNQ==}
     engines: {node: '>=18'}
     peerDependencies:
-      '@sveltejs/kit': ^2.16.0
+      '@sveltejs/kit': ^2.16.0 || ^3.0.0
       svelte: ^5.0.0
 
   '@layerstack/utils@1.0.0':
@@ -2600,7 +2600,7 @@ snapshots:
       - '@typescript-eslint/types'
       - rolldown
 
-  '@kitql/sveltekit@0.0.4(@sveltejs/kit@3.0.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)':
+  '@kitql/sveltekit@0.1.0(@sveltejs/kit@3.0.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)':
     dependencies:
       '@sveltejs/kit': 3.0.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3))
       svelte: 5.22.6
