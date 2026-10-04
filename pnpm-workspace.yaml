@@ -18,7 +18,7 @@ catalogs:
   firstly: 0.10.0
 
  svelte:
-  sv: 1.0.1
+  sv: 1.1.0
   '@sveltejs/sv-utils': 1.0.0
 
  devDeps:

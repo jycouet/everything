@@ -49,8 +49,8 @@ catalogs:
       specifier: 1.0.0
       version: 1.0.0
     sv:
-      specifier: 1.0.1
-      version: 1.0.1
+      specifier: 1.1.0
+      version: 1.1.0
   vite:
     vite-plugin-kit-routes:
       specifier: 1.1.0
@@ -92,7 +92,7 @@ importers:
         version: 3.3.0
       sv:
         specifier: catalog:svelte
-        version: 1.0.1
+        version: 1.1.0
       vite-plugin-kit-routes:
         specifier: catalog:vite
         version: 1.1.0(@sveltejs/kit@3.0.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3)))(@typescript-eslint/types@8.59.3)(rolldown@1.2.8)(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3))
@@ -1003,6 +1003,9 @@ packages:
 
   '@sveltejs/sv-utils@1.0.0':
     resolution: {integrity: sha512-nK6hcTMF9Iffu3zHS6+1bE7yDROFPvraKGvzjUy7aBQkzoccKse6WSWhpMvPLMP2tOC9+el4+HI+RhfA1OPFpQ==}
+
+  '@sveltejs/sv-utils@1.0.1':
+    resolution: {integrity: sha512-Y1tHH+8jpaoiGGiWPG8WcRiJrQW122QbofCv/uDYXelHCp8YcOErZYOjSP0XNgoV4oN5H2gbPEAeL6fQX9Rlpg==}
 
   '@sveltejs/vite-plugin-svelte@7.3.0':
     resolution: {integrity: sha512-QbRoJyD92e9R0ufeQIWRHrCC0ObcqSv/aBDdrQMoU+sypav3cDx5wytdQ6GLdXjEMO6xjrXGzfkUygng8JMv0A==}
@@ -2098,8 +2101,8 @@ packages:
     engines: {node: '>=20.16.0'}
     hasBin: true
 
-  sv@1.0.1:
-    resolution: {integrity: sha512-w0Us7C+4JsTLVW42NjMnyFBIeEEjwSEv2URDThUtv53jHYe1k7eaqXrP23JoeGcCxfEL86TVCWfuI8pqJjnbRQ==}
+  sv@1.1.0:
+    resolution: {integrity: sha512-q3HsgVYWqbMoxVI4sS/mBusOTc3XgOMO4H4FLEQq9nNuRKy/KHgbD2oES2iQ/KdP9qqSlHFuAkHZKc/oB4bJ+A==}
     hasBin: true
 
   svelte-eslint-parser@1.6.0:
@@ -3055,6 +3058,8 @@ snapshots:
       typescript: 7.0.2
 
   '@sveltejs/sv-utils@1.0.0': {}
+
+  '@sveltejs/sv-utils@1.0.1': {}
 
   '@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.8.3))':
     dependencies:
@@ -4136,9 +4141,9 @@ snapshots:
 
   srvx@1.0.5: {}
 
-  sv@1.0.1:
+  sv@1.1.0:
     dependencies:
-      '@sveltejs/sv-utils': 1.0.0
+      '@sveltejs/sv-utils': 1.0.1
 
   svelte-eslint-parser@1.6.0(svelte@5.22.6):
     dependencies:
