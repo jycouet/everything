@@ -46,8 +46,8 @@ catalogs:
       version: 3.4.1
   svelte:
     '@sveltejs/sv-utils':
-      specifier: 1.0.0
-      version: 1.0.0
+      specifier: 1.1.0
+      version: 1.1.0
     sv:
       specifier: 1.1.0
       version: 1.1.0
@@ -83,7 +83,7 @@ importers:
         version: 0.1.0(@sveltejs/kit@3.1.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)))(svelte@5.22.6)
       '@sveltejs/sv-utils':
         specifier: catalog:svelte
-        version: 1.0.0
+        version: 1.1.0
       firstly:
         specifier: catalog:remult
         version: 0.11.0(@sveltejs/kit@3.1.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)))(@typescript-eslint/types@8.71.0)(remult@3.4.1)(rolldown@1.2.8)(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1))
@@ -816,11 +816,11 @@ packages:
       typescript:
         optional: true
 
-  '@sveltejs/sv-utils@1.0.0':
-    resolution: {integrity: sha512-nK6hcTMF9Iffu3zHS6+1bE7yDROFPvraKGvzjUy7aBQkzoccKse6WSWhpMvPLMP2tOC9+el4+HI+RhfA1OPFpQ==}
-
   '@sveltejs/sv-utils@1.0.1':
     resolution: {integrity: sha512-Y1tHH+8jpaoiGGiWPG8WcRiJrQW122QbofCv/uDYXelHCp8YcOErZYOjSP0XNgoV4oN5H2gbPEAeL6fQX9Rlpg==}
+
+  '@sveltejs/sv-utils@1.1.0':
+    resolution: {integrity: sha512-HidTbnTfmgsxCyyv8HfyQzy5CiOxHF32xu4pmmi0tCC9x/W2jMpfOyH101qB7rR21DhVt4OFFVn+K4+zg+kbjA==}
 
   '@sveltejs/vite-plugin-svelte@7.3.0':
     resolution: {integrity: sha512-QbRoJyD92e9R0ufeQIWRHrCC0ObcqSv/aBDdrQMoU+sypav3cDx5wytdQ6GLdXjEMO6xjrXGzfkUygng8JMv0A==}
@@ -2648,9 +2648,9 @@ snapshots:
     optionalDependencies:
       typescript: 7.0.2
 
-  '@sveltejs/sv-utils@1.0.0': {}
-
   '@sveltejs/sv-utils@1.0.1': {}
+
+  '@sveltejs/sv-utils@1.1.0': {}
 
   '@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1))':
     dependencies:
