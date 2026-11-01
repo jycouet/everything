@@ -49,8 +49,8 @@ catalogs:
       specifier: 1.1.0
       version: 1.1.0
     sv:
-      specifier: 1.1.0
-      version: 1.1.0
+      specifier: 1.2.0
+      version: 1.2.0
   vite:
     vite-plugin-kit-routes:
       specifier: 1.1.0
@@ -92,7 +92,7 @@ importers:
         version: 3.4.1
       sv:
         specifier: catalog:svelte
-        version: 1.1.0
+        version: 1.2.0
       vite-plugin-kit-routes:
         specifier: catalog:vite
         version: 1.1.0(@sveltejs/kit@3.1.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)))(@typescript-eslint/types@8.71.0)(rolldown@1.2.8)(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1))
@@ -815,9 +815,6 @@ packages:
         optional: true
       typescript:
         optional: true
-
-  '@sveltejs/sv-utils@1.0.1':
-    resolution: {integrity: sha512-Y1tHH+8jpaoiGGiWPG8WcRiJrQW122QbofCv/uDYXelHCp8YcOErZYOjSP0XNgoV4oN5H2gbPEAeL6fQX9Rlpg==}
 
   '@sveltejs/sv-utils@1.1.0':
     resolution: {integrity: sha512-HidTbnTfmgsxCyyv8HfyQzy5CiOxHF32xu4pmmi0tCC9x/W2jMpfOyH101qB7rR21DhVt4OFFVn+K4+zg+kbjA==}
@@ -1832,8 +1829,8 @@ packages:
     engines: {node: '>=20.16.0'}
     hasBin: true
 
-  sv@1.1.0:
-    resolution: {integrity: sha512-q3HsgVYWqbMoxVI4sS/mBusOTc3XgOMO4H4FLEQq9nNuRKy/KHgbD2oES2iQ/KdP9qqSlHFuAkHZKc/oB4bJ+A==}
+  sv@1.2.0:
+    resolution: {integrity: sha512-Anrzq0xeJwO6Q+0AWRVtwoyalMir5PvS7wg9PL+FjAHA/ICqsGpH2ikSDdjFOnnMAHpWJmRXzUrgyZBfO2NZFg==}
     hasBin: true
 
   svelte-eslint-parser@1.9.0:
@@ -2647,8 +2644,6 @@ snapshots:
       vite: 8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)
     optionalDependencies:
       typescript: 7.0.2
-
-  '@sveltejs/sv-utils@1.0.1': {}
 
   '@sveltejs/sv-utils@1.1.0': {}
 
@@ -3671,9 +3666,9 @@ snapshots:
 
   srvx@1.0.5: {}
 
-  sv@1.1.0:
+  sv@1.2.0:
     dependencies:
-      '@sveltejs/sv-utils': 1.0.1
+      '@sveltejs/sv-utils': 1.1.0
 
   svelte-eslint-parser@1.9.0(svelte@5.22.6):
     dependencies:
