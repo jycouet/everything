@@ -39,8 +39,8 @@ catalogs:
       version: 0.1.0
   remult:
     firstly:
-      specifier: 0.12.1
-      version: 0.12.1
+      specifier: 0.13.0
+      version: 0.13.0
     remult:
       specifier: 3.4.1
       version: 3.4.1
@@ -86,7 +86,7 @@ importers:
         version: 1.1.0
       firstly:
         specifier: catalog:remult
-        version: 0.12.1(@sveltejs/kit@3.1.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)))(@typescript-eslint/types@8.71.0)(remult@3.4.1)(rolldown@1.2.8)(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1))
+        version: 0.13.0(@sveltejs/kit@3.1.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)))(@typescript-eslint/types@8.71.0)(remult@3.4.1)(rolldown@1.2.8)(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1))
       remult:
         specifier: catalog:remult
         version: 3.4.1
@@ -314,9 +314,6 @@ packages:
 
   '@layerstack/utils@1.0.0':
     resolution: {integrity: sha512-kIH8lo4MEzPGtdxQRacy8RsSVhMQwe62ckuev62xQDE5QcUJ4wB9EMaRWaQK8CfEOpUERGPgkMPMbMqPhdp0gw==}
-
-  '@mdi/js@7.4.47':
-    resolution: {integrity: sha512-KPnNOtm5i2pMabqZxpUz7iQf+mfrYZyKCZ8QNz85czgEt7cuHcGorWfdzUMWYA0SD+a6Hn4FmJ+YhzzzjkTZrQ==}
 
   '@modelcontextprotocol/client@2.0.0':
     resolution: {integrity: sha512-8f1OghQ2rjzIOfqgUCP+8GiUWqRs89njoWLNqAe8kWmDePv3s1fZXseej+QXemssEuuOvLLmLO/kqM3IQHtISw==}
@@ -1335,8 +1332,8 @@ packages:
     resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==}
     engines: {node: '>=10'}
 
-  firstly@0.12.1:
-    resolution: {integrity: sha512-9G1RUR7af7DiTJZBBn0NLXXaE46WE/JP3mht1t7+WmoSnYD7Amt5vL4sEvhsYGRkSvHouKDvmorBZAIDrCLTsQ==}
+  firstly@0.13.0:
+    resolution: {integrity: sha512-0bmtiZf5PxBxHsQdMwtrYbq0ntAGIAR3FOHegtPxCU0px8nZcBLdI/4NVefgiwr77nHW1dt20cFI/bn4qj6MyQ==}
     engines: {node: '>=22.17'}
     hasBin: true
     peerDependencies:
@@ -2356,8 +2353,6 @@ snapshots:
       date-fns: 4.1.0
       lodash-es: 4.17.21
 
-  '@mdi/js@7.4.47': {}
-
   '@modelcontextprotocol/client@2.0.0':
     dependencies:
       '@modelcontextprotocol/core': 2.0.0
@@ -3124,11 +3119,10 @@ snapshots:
       locate-path: 6.0.0
       path-exists: 4.0.0
 
-  firstly@0.12.1(@sveltejs/kit@3.1.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)))(@typescript-eslint/types@8.71.0)(remult@3.4.1)(rolldown@1.2.8)(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)):
+  firstly@0.13.0(@sveltejs/kit@3.1.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)))(@typescript-eslint/types@8.71.0)(remult@3.4.1)(rolldown@1.2.8)(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)):
     dependencies:
       '@kitql/helpers': 0.8.15
       '@layerstack/utils': 1.0.0
-      '@mdi/js': 7.4.47
       '@types/nodemailer': 8.0.0
       clsx: 2.1.1
       cron: 4.4.0
