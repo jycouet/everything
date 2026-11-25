@@ -29,8 +29,8 @@ catalogs:
       specifier: 0.4.0
       version: 0.4.0
     '@kitql/helpers':
-      specifier: 0.8.12
-      version: 0.8.12
+      specifier: 0.9.0
+      version: 0.9.0
     '@kitql/internals':
       specifier: 0.11.0
       version: 0.11.0
@@ -74,7 +74,7 @@ importers:
         version: 0.4.0(@sveltejs/kit@3.4.0(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.22.6)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)))(svelte@5.22.6)(typescript@7.0.2)(vite@8.3.0(@types/node@22.13.10)(jiti@2.6.1)(yaml@2.9.1)))(svelte@5.22.6)
       '@kitql/helpers':
         specifier: catalog:kitql
-        version: 0.8.12
+        version: 0.9.0
       '@kitql/internals':
         specifier: catalog:kitql
         version: 0.11.0
@@ -277,16 +277,16 @@ packages:
       '@sveltejs/kit': ^2.4.0 || ^3.0.0
       svelte: ^3.54.0 || ^4.0.0 || ^5.0.0
 
-  '@kitql/helpers@0.8.12':
-    resolution: {integrity: sha512-aAihk32Ym8XFtwP1mwpuvG5J0Ov2LTnIVItJZI31bTnmlQ5tYSaYgvnD44lNiAjHQw0/tUstqIYRPK8C6wlLoA==}
-    engines: {node: ^16.14 || >=18}
-
   '@kitql/helpers@0.8.13':
     resolution: {integrity: sha512-8Om4jxF3XLTrpCkrZ8q6kHco4o6u/zKisA7XjLdiUDeSX7VSprlq6fnG2xayrbrc1He+pHQkgj2cHqqUvEHTGg==}
     engines: {node: ^16.14 || >=18}
 
   '@kitql/helpers@0.8.15':
     resolution: {integrity: sha512-MAmVehlHoJanT0uqbZP08960P066uuu4GyKcsSXt3YxoBoVJNOvBY9cDNihWDtWCPG34FzGsXI1CcceRHKHLrg==}
+    engines: {node: ^16.14 || >=18}
+
+  '@kitql/helpers@0.9.0':
+    resolution: {integrity: sha512-eada91R4Rl8IOGe8kLJOul8i+8uimSZ/4w19+poVIbVz0X9CBk2Plmky00vG1S3wEY0YchlGglU/vTRoSDmReg==}
     engines: {node: ^16.14 || >=18}
 
   '@kitql/internals@0.11.0':
@@ -2303,15 +2303,15 @@ snapshots:
       svelte: 5.22.6
       vary: 1.1.2
 
-  '@kitql/helpers@0.8.12':
-    dependencies:
-      esm-env: 1.2.2
-
   '@kitql/helpers@0.8.13':
     dependencies:
       esm-env: 1.2.2
 
   '@kitql/helpers@0.8.15':
+    dependencies:
+      esm-env: 1.2.2
+
+  '@kitql/helpers@0.9.0':
     dependencies:
       esm-env: 1.2.2
 
